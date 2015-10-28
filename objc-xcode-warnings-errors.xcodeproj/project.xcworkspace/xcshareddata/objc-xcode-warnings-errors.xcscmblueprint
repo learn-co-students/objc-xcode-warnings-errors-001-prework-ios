@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "20F5C5D9A430A9EA975177D9E8D566B2B45E87FC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "956B21BFCBB7AF17866F39E9C703AC125DDA9FA2" : 0,
+    "316588715E9A18E8DCA15CAFA5DFE27478201EB2" : 0,
+    "F9805C79BAB210B94A68759E9026981E5591643F" : 0,
+    "20F5C5D9A430A9EA975177D9E8D566B2B45E87FC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0B83B3EE-35CB-4254-B98B-981CA6D18EF5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "956B21BFCBB7AF17866F39E9C703AC125DDA9FA2" : "",
+    "316588715E9A18E8DCA15CAFA5DFE27478201EB2" : "..\/..",
+    "F9805C79BAB210B94A68759E9026981E5591643F" : "..",
+    "20F5C5D9A430A9EA975177D9E8D566B2B45E87FC" : "objc-xcode-warnings-errors-001-prework-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "objc-xcode-warnings-errors",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "objc-xcode-warnings-errors.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:GlennTrim\/objc-xcode-warnings-errors-001-prework-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20F5C5D9A430A9EA975177D9E8D566B2B45E87FC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:GlennTrim\/ios-first-lab-001-prework-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "316588715E9A18E8DCA15CAFA5DFE27478201EB2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:GlennTrim\/objc-interpolate-001-prework-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "956B21BFCBB7AF17866F39E9C703AC125DDA9FA2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:GlennTrim\/ios-your-first-NSLog-001-prework-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F9805C79BAB210B94A68759E9026981E5591643F"
+    }
+  ]
+}
