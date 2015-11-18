@@ -9,7 +9,7 @@
     
     NSString *unused = @"This variable generates a warning because it is unused.";
     
-    NSLog(@"%@", unused); 
+    NSLog(@"%@", unused);
     
     NSInteger i = 12;
     NSLog(@"i: %li", i);
