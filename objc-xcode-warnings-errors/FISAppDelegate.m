@@ -17,9 +17,15 @@
     NSInteger x = i + 1;
     NSLog(@"x: %li", x);
     
+
     NSLog(@"Anything after the return statement will not get executed.");
     
     return YES; // this line ends the method
+
+    NSString *message = @"Even though they don't belong here, the compiler won't actually complain about string literals or primitives defined outside of a method body (which is held by  curly braces {...} ), but...";
+    
+    NSInteger j = 0;
+    BOOL itIsKnownKhaleesi = YES;
     
     NSLog(@"Take note that this line doesn't print to the console.");
     
@@ -31,13 +37,9 @@
     
     itIsKnownKhaleesi = NO;
     
-    NSString *notLocal = [NSString stringWithString:@"Which means the variables above, while permitted, can't be used in the way that you intend."];
+    NSString *notLocal = @"Which means the variables above, while permitted, can't be used in the way that you intend.";
 
+    NSLog(@"%@", notLocal);
 }
-
-NSString *message = @"Even though they don't belong here, the compiler won't actually complain about string literals or primitives defined outside of a method body (which is held by  curly braces {...} ), but...";
-
-NSInteger j = 0;
-BOOL itIsKnownKhaleesi = YES;
 
 @end
