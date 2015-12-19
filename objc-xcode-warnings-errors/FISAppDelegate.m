@@ -9,13 +9,13 @@
     
     NSString *unused = @"This variable generates a warning because it is unused.";
     
-//    NSLog(@"%@", unused);
+    NSLog(@"%@", unused);
     
-//    NSInteger *i = 0;
-//    NSLog(@"i: %li", i);
+    NSInteger i = 12;
+    NSLog(@"i: %li", i);
     
-//    NSInteger x = i + 1;
-//    NSLog(@"x: %li", x);
+    NSInteger x = i + 1;
+    NSLog(@"x: %li", x);
     
     NSLog(@"Anything after the return statement will not get executed.");
     
@@ -25,7 +25,7 @@
 }
 
 //NSString *message = @"Even though they don't belong here, the compiler won't actually complain about string literals or primitives defined outside of a method body (which is held by  curly braces {...} ), but...";
-
+//
 //NSInteger j = 0;
 //BOOL itIsKnownKhaleesi = YES;
 
