@@ -54,7 +54,7 @@ You'll notice that the warning symbol also appears in the tool bar, and that the
 
 Go ahead and run the program with `⌘` `R`. Notice that the build succeeds despite the warning.
 
-Now, uncomment the following line of code containing `NSLog(@"%@", unused);`. In addition to printing the `unused` string to the console, this now ties down the loose end of not have used that variable which makes the warning disappear. Run the program again and you should see the string print to the console.
+Now, uncomment the following line of code containing `NSLog(@"%@", unused);`. In addition to printing the `unused` string to the console, this now ties down the loose end of not having used that variable, which makes the warning disappear. Run the program again and you should see the string print to the console.
 
 ### Incompatible integer to pointer conversion
 
