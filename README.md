@@ -54,7 +54,7 @@ You'll notice that the warning symbol also appears in the tool bar, and that the
 
 Go ahead and run the program with `⌘` `R`. Notice that the build succeeds despite the warning.
 
-Now, uncomment the following line of code containing `NSLog(@"%@", unused);`. In addition to printing the `unused` string to the console, this now ties down the loose end of not have used that variable which makes the warning disappear. Run the program again and you should see the string print to the console.
+Now, uncomment the following line of code containing `NSLog(@"%@", unused);`. In addition to printing the `unused` string to the console, this now ties down the loose end of not having used that variable and makes the warning disappear. Run the program again and you should see the string print to the console.
 
 ### Incompatible integer to pointer conversion
 
@@ -87,7 +87,7 @@ That doesn't look good. What's that green line reading `Thread 1: EXC_BAD_ACCESS
 ![](https://curriculum-content.s3.amazonaws.com/ios/ios-objc-fundamentals-unit/xcode_clumsy_canine.jpg)  
 —*Thanks for the help, Xcode.*
 
-The actual solution to this problem is removing the `*` from the declaration of `i`. Do that now so the line reads `NSInteger i = 12;`. Replace the assignment of `x` to the original formula `x + 1`, then run the program again. You should see both lines print in the console:
+The actual solution to this problem is removing the `*` from the declaration of `i`. Do that now so the line reads `NSInteger i = 12;`. Replace the assignment of `x` to the original formula `i + 1`, then run the program again. You should see both lines print in the console:
 
 ```
 i: 12
@@ -133,3 +133,5 @@ Now you're on your way to becoming the mystical guru that Xcode is not:
 
 
 
+
+<a href='https://learn.co/lessons/objc-xcode-warnings-errors' data-visibility='hidden'>View this lesson on Learn.co</a>
