@@ -7,19 +7,17 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    NSString *unused = @"This variable generates a warning because it is unused.";
+    NSString
     
 //    NSLog(@"%@", unused);
     
-//    NSInteger *i = 0;
+//    NSInteger *i = 12;
 //    NSLog(@"i: %li", i);
     
 //    NSInteger x = i + 1;
 //    NSLog(@"x: %li", x);
     
-    NSLog(@"Anything after the return statement will not get executed.");
-    
-    return YES; // this line ends the method
+   
     
     NSLog(@"Take note that this line doesn't print to the console.");
 }
