@@ -11,17 +11,18 @@
     
 //    NSLog(@"%@", unused);
     
-//    NSInteger *i = 0;
-//    NSLog(@"i: %li", i);
+    NSInteger *i = 0;
+    NSLog(@"i: %li", i);
     
-//    NSInteger x = i + 1;
-//    NSLog(@"x: %li", x);
+    
+    NSInteger x = i + 1;
+    NSLog(@"x: %li", x);
     
     NSLog(@"Anything after the return statement will not get executed.");
     
     return YES; // this line ends the method
     
-    NSLog(@"Take note that this line doesn't print to the console.");
+    //NSLog(@"Take note that this line doesn't print to the console.");
 }
 
 //NSString *message = @"Even though they don't belong here, the compiler won't actually complain about string literals or primitives defined outside of a method body (which is held by  curly braces {...} ), but...";
