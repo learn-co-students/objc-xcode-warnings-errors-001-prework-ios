@@ -131,7 +131,7 @@ Now you're on your way to becoming the mystical guru that Xcode is not:
 ![](https://curriculum-content.s3.amazonaws.com/ios/ios-objc-fundamentals-unit/xcode_mountain_guru.jpg)
 
 
-
+got it!
 
 
 <a href='https://learn.co/lessons/objc-xcode-warnings-errors' data-visibility='hidden'>View this lesson on Learn.co</a>
