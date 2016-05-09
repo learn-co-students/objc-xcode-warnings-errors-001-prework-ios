@@ -29,9 +29,11 @@
     
     NSLog(@"...any statements containing function calls, operations, or method calls will produce errors.");
     
+    j++;
     
+    itIsKnownKhaleesi = NO;
     
-    
+    NSString *notLocal = @"Which means the variables above, while permitted, can't be used in the way that you intend.";
     NSLog(@"%@", message);
 }
 
@@ -39,11 +41,6 @@
 
 
 
-//j++;
 
-//itIsKnownKhaleesi = NO;
-
-
-//NSString *notLocal = [NSString stringWithString:@"Which means the variables above, while permitted, can't be used in the way that you intend."];
 
 @end
