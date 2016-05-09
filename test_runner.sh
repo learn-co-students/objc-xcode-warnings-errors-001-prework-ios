@@ -10,4 +10,9 @@ cd "$CURR_DIR"
 if [[ -z "$(which learn-xcpretty)" ]]; then
   gem install learn-xcpretty
 fi
+<<<<<<< HEAD
 echo "$LOG" | learn-xcpretty -t --report learn
+
+=======
+echo "$LOG" | learn-xcpretty -t --report learn
+>>>>>>> 9d0efb47a77ac8545f6467eea978f18d5345b89e
