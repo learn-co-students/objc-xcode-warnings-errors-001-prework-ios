@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		515EF589C5D22693C20BF530 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADEFBFA2C3BC95DEF8B4D18 /* main.m */; };
+		591C4587B522E9BD0CAC4D70 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE4AA89D78BD6F9C56DC28A /* libPods-unit_tests.a */; };
+		880F7EC64F2C128EEDDB3C93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB634BD40F353EA340946D01 /* Images.xcassets */; };
+		935CC8836BF2C15528797C38 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9601018F11B608ABB4E15D04 /* FISAppDelegate.m */; };
+		9CB0740F4ACD5E9788F86036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C1FB11648661DA6C39C7E0 /* Main.storyboard */; };
+		A2B83679888214B6BEE87018 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 760158A44797B17BBA0C1CE3 /* LaunchScreen.xib */; };
+		E708CA25C68837E442197817 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1ABF9D913EB6D3CC132F42 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AF6F61653B216EE0AF84FAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9514CF2FCC7F5F88ABE397F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADC54AE69B5B16DDE6266674;
+			remoteInfo = "objc-xcode-warnings-errors";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D9F0C921A2AADCC55F05534 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
+		24C1FB11648661DA6C39C7E0 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		28C4FACA0ABA4ECD106092ED /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FFD021FCEEE9807EA492C65 /* objc-xcode-warnings-errors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objc-xcode-warnings-errors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		760158A44797B17BBA0C1CE3 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		78911D6CCD3D3B89109B7523 /* objc-xcode-warnings-errors-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "objc-xcode-warnings-errors-Prefix.pch"; sourceTree = "<group>"; };
+		7C1ABF9D913EB6D3CC132F42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8B403B51955EB88D146B2733 /* objc-xcode-warnings-errors-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "objc-xcode-warnings-errors-Info.plist"; sourceTree = "<group>"; };
+		9601018F11B608ABB4E15D04 /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
+		9ADEFBFA2C3BC95DEF8B4D18 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0666A21B0A4FCEB87ACAA2D /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		BB634BD40F353EA340946D01 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE8D83DD3FA32DD9B66684E5 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
+		FCE4AA89D78BD6F9C56DC28A /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		162E0E2C18B3C40D8EED63A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591C4587B522E9BD0CAC4D70 /* libPods-unit_tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEBF0417F126D0176EFD61E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E708CA25C68837E442197817 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B1F16299BCD971CE38DD92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB634BD40F353EA340946D01 /* Images.xcassets */,
+				760158A44797B17BBA0C1CE3 /* LaunchScreen.xib */,
+				6206445411AD8D46EA79D33F /* Other-Sources */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		48396E47FEB9DAEFE749968B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7C1ABF9D913EB6D3CC132F42 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6206445411AD8D46EA79D33F /* Other-Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8B403B51955EB88D146B2733 /* objc-xcode-warnings-errors-Info.plist */,
+				78911D6CCD3D3B89109B7523 /* objc-xcode-warnings-errors-Prefix.pch */,
+				9ADEFBFA2C3BC95DEF8B4D18 /* main.m */,
+			);
+			path = "Other-Sources";
+			sourceTree = "<group>";
+		};
+		649D79678A2757386AA4DD41 = {
+			isa = PBXGroup;
+			children = (
+				6D0510D0ED3F8C49794F9667 /* objc-xcode-warnings-errors */,
+				A8BB96DE393376922EBA2416 /* UnitTests */,
+				6E4DF90E84A8F60F386D8A9C /* Frameworks */,
+				7FCC90FF94A8C0B38DA45654 /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		6D0510D0ED3F8C49794F9667 /* objc-xcode-warnings-errors */ = {
+			isa = PBXGroup;
+			children = (
+				CE8D83DD3FA32DD9B66684E5 /* FISAppDelegate.h */,
+				9601018F11B608ABB4E15D04 /* FISAppDelegate.m */,
+				24C1FB11648661DA6C39C7E0 /* Main.storyboard */,
+				15B1F16299BCD971CE38DD92 /* Resources */,
+			);
+			path = "objc-xcode-warnings-errors";
+			sourceTree = "<group>";
+		};
+		6E4DF90E84A8F60F386D8A9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48396E47FEB9DAEFE749968B /* iOS */,
+				FCE4AA89D78BD6F9C56DC28A /* libPods-unit_tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FCC90FF94A8C0B38DA45654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FFD021FCEEE9807EA492C65 /* objc-xcode-warnings-errors.app */,
+				28C4FACA0ABA4ECD106092ED /* UnitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EA29376E946778702F534EA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		A8BB96DE393376922EBA2416 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				E56103E83E8D0FF1BBF520F1 /* Resources */,
+				9EA29376E946778702F534EA /* Tests */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		E56103E83E8D0FF1BBF520F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0666A21B0A4FCEB87ACAA2D /* UnitTests-Info.plist */,
+				0D9F0C921A2AADCC55F05534 /* UnitTests-Prefix.pch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FB106068703930793E63383 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA12B0866BE3B573B894AA6 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				5BBFA7B0B7064E40244E7ADE /* Check Pods Manifest.lock */,
+				2379509B1081A1DE822A10F5 /* Sources */,
+				162E0E2C18B3C40D8EED63A0 /* Frameworks */,
+				E94D4F44B5FF0567F9F04447 /* Resources */,
+				C9B50921435D120B3563690A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2D002183FBEC037D4AF742B /* PBXTargetDependency */,
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = 28C4FACA0ABA4ECD106092ED /* UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADC54AE69B5B16DDE6266674 /* objc-xcode-warnings-errors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2D859358D756DC5CE365F9 /* Build configuration list for PBXNativeTarget "objc-xcode-warnings-errors" */;
+			buildPhases = (
+				2CEB16E32D43EE2BBC086C97 /* Sources */,
+				DEEBF0417F126D0176EFD61E /* Frameworks */,
+				57F6C6F619BD87552A879079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "objc-xcode-warnings-errors";
+			productName = "objc-xcode-warnings-errors";
+			productReference = 2FFD021FCEEE9807EA492C65 /* objc-xcode-warnings-errors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9514CF2FCC7F5F88ABE397F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FIS;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "The Flatiron School";
+			};
+			buildConfigurationList = 13097BB6FE2C280D5FADE152 /* Build configuration list for PBXProject "objc-xcode-warnings-errors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 649D79678A2757386AA4DD41;
+			productRefGroup = 7FCC90FF94A8C0B38DA45654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADC54AE69B5B16DDE6266674 /* objc-xcode-warnings-errors */,
+				5FB106068703930793E63383 /* UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57F6C6F619BD87552A879079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880F7EC64F2C128EEDDB3C93 /* Images.xcassets in Resources */,
+				9CB0740F4ACD5E9788F86036 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94D4F44B5FF0567F9F04447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BBFA7B0B7064E40244E7ADE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9B50921435D120B3563690A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2379509B1081A1DE822A10F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CEB16E32D43EE2BBC086C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935CC8836BF2C15528797C38 /* FISAppDelegate.m in Sources */,
+				A2B83679888214B6BEE87018 /* LaunchScreen.xib in Sources */,
+				515EF589C5D22693C20BF530 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2D002183FBEC037D4AF742B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADC54AE69B5B16DDE6266674 /* objc-xcode-warnings-errors */;
+			targetProxy = 8AF6F61653B216EE0AF84FAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BD7A4AC563FD8DA0C7CE3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "objc-xcode-warnings-errors/Resources/Other-Sources/objc-xcode-warnings-errors-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "objc-xcode-warnings-errors/Resources/Other-Sources/objc-xcode-warnings-errors-Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33596C44EA188760DAAA62DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37BAA216CF4923AD2A5D8F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/objc-xcode-warnings-errors.app/objc-xcode-warnings-errors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6B8A816212275BB378DCFE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/objc-xcode-warnings-errors.app/objc-xcode-warnings-errors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		895B74C1DEBCA0C576AE7412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6A3AAA843A26AAFE6B7AB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "objc-xcode-warnings-errors/Resources/Other-Sources/objc-xcode-warnings-errors-Prefix.pch";
+				INFOPLIST_FILE = "objc-xcode-warnings-errors/Resources/Other-Sources/objc-xcode-warnings-errors-Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13097BB6FE2C280D5FADE152 /* Build configuration list for PBXProject "objc-xcode-warnings-errors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895B74C1DEBCA0C576AE7412 /* Debug */,
+				33596C44EA188760DAAA62DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2D859358D756DC5CE365F9 /* Build configuration list for PBXNativeTarget "objc-xcode-warnings-errors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A3AAA843A26AAFE6B7AB4C /* Release */,
+				1BD7A4AC563FD8DA0C7CE3D9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA12B0866BE3B573B894AA6 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8A816212275BB378DCFE04 /* Release */,
+				37BAA216CF4923AD2A5D8F39 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9514CF2FCC7F5F88ABE397F /* Project object */;
+}
