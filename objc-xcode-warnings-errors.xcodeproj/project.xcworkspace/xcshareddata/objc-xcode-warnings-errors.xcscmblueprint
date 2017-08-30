@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "20F5C5D9A430A9EA975177D9E8D566B2B45E87FC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "956B21BFCBB7AF17866F39E9C703AC125DDA9FA2" : 9223372036854775807,
+    "20F5C5D9A430A9EA975177D9E8D566B2B45E87FC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CB6B6544-0254-458B-B4AE-5ACD2D9FED76",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "956B21BFCBB7AF17866F39E9C703AC125DDA9FA2" : "",
+    "20F5C5D9A430A9EA975177D9E8D566B2B45E87FC" : "objc-xcode-warnings-errors-001-prework-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "objc-xcode-warnings-errors",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "objc-xcode-warnings-errors.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:yenyin26\/objc-xcode-warnings-errors-001-prework-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20F5C5D9A430A9EA975177D9E8D566B2B45E87FC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:yenyin26\/objc-interpolate-001-prework-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "956B21BFCBB7AF17866F39E9C703AC125DDA9FA2"
+    }
+  ]
+}
