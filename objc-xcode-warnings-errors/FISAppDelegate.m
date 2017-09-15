@@ -6,12 +6,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+  
+
     NSString *unused = @"This variable generates a warning because it is unused.";
+    NSLog(@"%@", unused);
     
-//    NSLog(@"%@", unused);
-    
-//    NSInteger *i = 0;
+NSInteger *i = 0;
 //    NSLog(@"i: %li", i);
     
 //    NSInteger x = i + 1;
