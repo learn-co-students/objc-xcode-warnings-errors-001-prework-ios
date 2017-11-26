@@ -12,7 +12,6 @@
 		880F7EC64F2C128EEDDB3C93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB634BD40F353EA340946D01 /* Images.xcassets */; };
 		935CC8836BF2C15528797C38 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9601018F11B608ABB4E15D04 /* FISAppDelegate.m */; };
 		9CB0740F4ACD5E9788F86036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C1FB11648661DA6C39C7E0 /* Main.storyboard */; };
-		A2B83679888214B6BEE87018 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 760158A44797B17BBA0C1CE3 /* LaunchScreen.xib */; };
 		E708CA25C68837E442197817 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1ABF9D913EB6D3CC132F42 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +30,6 @@
 		24C1FB11648661DA6C39C7E0 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		28C4FACA0ABA4ECD106092ED /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FFD021FCEEE9807EA492C65 /* objc-xcode-warnings-errors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objc-xcode-warnings-errors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		760158A44797B17BBA0C1CE3 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		78911D6CCD3D3B89109B7523 /* objc-xcode-warnings-errors-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "objc-xcode-warnings-errors-Prefix.pch"; sourceTree = "<group>"; };
 		7C1ABF9D913EB6D3CC132F42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8B403B51955EB88D146B2733 /* objc-xcode-warnings-errors-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "objc-xcode-warnings-errors-Info.plist"; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				BB634BD40F353EA340946D01 /* Images.xcassets */,
-				760158A44797B17BBA0C1CE3 /* LaunchScreen.xib */,
 				6206445411AD8D46EA79D33F /* Other-Sources */,
 			);
 			path = Resources;
@@ -291,7 +288,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				935CC8836BF2C15528797C38 /* FISAppDelegate.m in Sources */,
-				A2B83679888214B6BEE87018 /* LaunchScreen.xib in Sources */,
 				515EF589C5D22693C20BF530 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
